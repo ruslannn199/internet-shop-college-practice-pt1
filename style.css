@@ -1,0 +1,31 @@
+body {
+	margin: 0;
+	padding: 0;
+	margin-left: 5px;
+}
+
+img {
+	width: 20vmin;
+	height: 20vmin;
+}
+
+#messageArea {
+	height: 10vmin;
+}
+
+input[type="text"], input[type="email"], textarea {
+	width: 40vmin;
+}
+
+#contactsList {
+	font-style: italic;
+}
+
+#map {
+	margin-left: 10px;
+}
+
+#logo {
+	width: 80vmin;
+	height: 30vmin;
+}
