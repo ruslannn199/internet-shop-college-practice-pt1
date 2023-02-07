@@ -1,20 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 body {
+	font-family: Roboto, Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	margin-left: 5px;
+	margin-left: 10px;
+	background-color: #f8f8f8;
 }
 
 img {
 	width: 20vmin;
 	height: 20vmin;
+	border: 2px solid rgb(84, 185, 219);
+	box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
 }
 
-#messageArea {
-	height: 10vmin;
-}
-
-input[type="text"], input[type="email"], textarea {
+.productImage {
 	width: 40vmin;
+	height: 40vmin;
+}
+
+form {
+	box-sizing: border-box;
+}
+
+a, a:hover, a:link, a:visited, a:active {
+	text-decoration: none;
+	font-size: 36px;
+	color: rgb(84, 185, 219);
+	border: rgb(84, 185, 219) 2px solid;
+	border-radius: 3vmin;
+	padding: 1vmin;
+	margin: 1vmin;
+	line-height: 10vmin;
+}
+
+li {
+	list-style-type: none;
+}
+
+input, textarea {
+	margin: 1vmin;
+	font-size: 18px;
+	font-family: inherit;
+	color: rgb(46, 46, 46);
+	padding: 1vmin;
+	width: 40vmin;
+	height: 5vmin;
+	border: 2px solid rgb(84, 185, 219);
+	border-radius: 2.5vmin;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input:focus, textarea:focus {
+	background-color: #fff;
+	border-color: rgb(12, 79, 101);
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+input::placeholder, textarea::placeholder{
+	opacity: 0.4;
+}
+
+textarea {
+	width: 40vmin;
+	height: 10vmin;
+	resize: none;
+}
+
+input[type="button"]{
+	margin: 1vmin;
+	padding: 10px;
+	border: none;
+	background-color: #3F51B5;
+	color: #fff;
+	font-weight: 500;
+	border-radius: 2.5vmin;
+	width: 42.5vmin;
+	cursor: pointer;
+	transition: all 0.15s box-shadow 0.4s;
+}
+
+input[type="button"]:hover {
+	background-color: #586de6;
+}
+
+input[type="button"]:focus {
+	box-shadow: none;
+}
+
+input[type="button"]:active {
+	box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
 }
 
 #contactsList {
@@ -28,4 +105,35 @@ input[type="text"], input[type="email"], textarea {
 #logo {
 	width: 80vmin;
 	height: 30vmin;
+}
+
+#mainContent {
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 16px;
+}
+
+#mainContent h3, #mainContent h2 {
+	font-style: normal;
+	color: black;
+	font-size: 18px;
+	font-weight: 400;
+	background-color: #eaeaea;
+	line-height: 32px;
+}
+
+#mainContent h2+p {
+	color: #484343;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+}
+
+#mainContent li {
+	font-style: normal;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: rgb(12, 79, 101);
+	list-style-image: url(catalogue/images/marker.png);
 }
