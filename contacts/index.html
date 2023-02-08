@@ -8,12 +8,16 @@
 	<title>Магазин НаСтол контакты</title>
 </head>
 <body>
-	<ul>
-		<li><a href="/main">Главная</a></li>
-		<li><a href="/catalogue">Каталог</a></li>
-		<li><a href="/contacts">Контакты</a></li>
-		<hr>
-	</ul>
+	<header>
+		<ul>
+			<li><a class="navLink" href="/main">Главная</a></li>
+			<li><a class="navLink" href="/catalogue">Каталог</a></li>
+			<li><a class="navLink" href="/contacts">Контакты</a></li>
+		</ul>
+		<div id="logoContainer">
+			<img id="logo" src="../catalogue/images/logo.png" alt="лого">
+		</div>
+	</header>
 	<h2>Напишите нам</h2>
 	<form action="" method="post">
 		<fieldset>
@@ -22,14 +26,14 @@
 			<input required type="email" maxlength="50" placeholder="Ваша электронная почта"><br>
 			<input required type="text" maxlength="50" placeholder="Тема"><br>
 			<textarea required id="messageArea" type="text" placeholder="Ваше сообщение"></textarea><br>
-			<input type="button" value="Отправить">
+			<input type="submit" value="Отправить">
 		</fieldset>
 	</form>
 	<h3>Адрес</h3>
 	<ul id="contactsList">
 		<li>Номер телефона: +79627536191</li>
 		<li>Адрес: г.Санкт-Петербург, наб.реки Мойки, 61</li>
-		<li>ruslannn199@gmail.com</li>
+		<li>Почта: ruslannn199@gmail.com</li>
 	</ul>
 	<div id="map">
 		<div style="position:relative;overflow:hidden;">
