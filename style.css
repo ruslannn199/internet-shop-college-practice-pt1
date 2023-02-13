@@ -182,6 +182,10 @@ td {
 	cursor: pointer;
 }
 
+#logo:hover {
+	opacity: 0.5;
+}
+
 #mainContent {
 	color: rgb(12, 79, 101);
 	font-size: 14px;
@@ -218,6 +222,7 @@ td {
 	padding: 3vmin;
 	display: flex;
 	align-items: center;
+	text-align: center;
 	justify-content: space-evenly;
 	transition: outline 0.15s;
 }
@@ -226,10 +231,61 @@ td {
 	outline: 1vmin solid rgba(158, 158, 158, 0.25);
 }
 
-#catalogueList {
-	display: flex;
-	padding: 1vmin;
+@media screen and (max-width: 599px) {
+	#catalogueList {
+		display: grid;
+		grid-template-rows: repeat(90vmin);
+		grid-template-columns: 90vmin;
+		padding: 1vmin;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
 }
+
+@media screen and (min-width: 600px) {
+	#catalogueList {
+		display: grid;
+		grid-template-rows: repeat(60vmin);
+		grid-template-columns: 30vmin 30vmin;
+		padding: 1vmin;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	#catalogueList {
+		display: grid;
+		grid-template-rows: repeat(60vmin);
+		grid-template-columns: 38vmin 38vmin 38vmin;
+		padding: 1vmin;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	#catalogueList {
+		display: grid;
+		grid-template-rows: repeat(60vmin);
+		grid-template-columns: 38vmin 38vmin 38vmin 38vmin;
+		padding: 1vmin;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	#catalogueList {
+		display: grid;
+		grid-template-rows: repeat(60vmin);
+		grid-template-columns: 38vmin 38vmin 38vmin 38vmin 38vmin;
+		padding: 1vmin;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+	}
+}
+
 
 .productPrice {
 	font-weight: 700;
@@ -271,15 +327,21 @@ td {
 	height: 10vmin;
 }
 
-#basketIcon:hover {
-	outline: whitesmoke 0.5vmin solid;
-}
-
 .shopItemLink, .shopItemLink:hover,
 .shopItemLink:active, .shopItemLink:link,
 .shopItemLink:visited {
 	font-size: 2vmin;
-	line-height: 5vmin;
 	color: rgb(19, 104, 132);
 	font-weight: 700;
+}
+
+#shopItemPreview {
+	display: flex;
+	align-items: center;
+}
+
+#addToBasketContainer {
+	margin-left: 10vmin;
+	display: flex;
+	flex-direction: column;
 }
