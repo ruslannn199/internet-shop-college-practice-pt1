@@ -4,19 +4,24 @@ body {
 	font-family: Roboto, Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	margin-left: 0.5vmin;
-	margin-right: 0.5vmin;
 	background-color: #f9f9f9;
 	color: rgb(19, 104, 132);
+	margin-top: 12vmin;
 }
 
 header {
-	padding: 0 2vmin;
-	background-color: rgb(19, 57, 85);
-	display: flex;
 	height: 12vmin;
+	position: fixed;
+	padding: 0 2vmin;
+	background-color: rgb(44, 137, 203);
+	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+	width: calc(100% - 4vmin);
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	z-index: 100;
 }
 
 header ul {
@@ -61,22 +66,24 @@ a, a:hover, a:link, a:visited, a:active {
 	border: none;
 	text-decoration: none;
 	font-size: 2.5vmin;
-	color: rgb(84, 185, 219);
+	color: rgb(36, 80, 95);
 }
 
 .navLink, .navLink:hover, .navLink:link,
 .navLink:visited, .navLink:active {
-	border: rgb(84, 185, 219) 2px solid;
+	border: rgb(36, 80, 95) 2px solid;
 	border-radius: 3vmin;
 	padding: 1vmin;
 	margin: 1vmin;
 	line-height: 10vmin;
-	transition: color 0.15s;
+	transition: all 0.15s;
+	box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
 }
 
 .navLink:hover {
 	color: orange;
 	border-color: orange;
+	box-shadow: 0 0 0 0.4rem rgba(158, 158, 158, 0.25)
 }
 
 li {
@@ -124,7 +131,7 @@ textarea {
 
 input[type="submit"]{
 	font-size: 3.5vmin;
-	line-height: 0vmin;
+	line-height: 0;
 	margin: 1vmin;
 	padding: 1vmin;
 	border: none;
@@ -177,6 +184,8 @@ td {
 }
 
 #logo {
+	border: none;
+	box-shadow: none;
 	width: 22vmin;
 	height: 10vmin;
 	cursor: pointer;
@@ -239,6 +248,11 @@ td {
 		padding: 1vmin;
 		flex-wrap: wrap;
 		justify-content: space-evenly;
+	}
+
+	.itemImage {
+		width: 45vmin;
+		height: 45vmin;
 	}
 }
 
@@ -334,7 +348,7 @@ td {
 .shopItemLink:active, .shopItemLink:link,
 .shopItemLink:visited {
 	font-size: 2vmin;
-	color: rgb(19, 104, 132);
+	color: #2C89CB;
 	font-weight: 700;
 }
 
@@ -375,4 +389,43 @@ td {
 
 .favBtn:active {
 	background-color: red;
+}
+
+@media screen and (max-width: 599px) {
+	.shopItemLink, .shopItemLink:hover,
+	.shopItemLink:active, .shopItemLink:link,
+	.shopItemLink:visited {
+		font-size: 6vmin;
+	}
+
+	.productPrice {
+		font-size: 5vmin;
+	}
+
+	.buyBtn {
+		font-size: 4vmin;
+		padding: 4vmin 6vmin;
+		border-radius: 2vmin;
+	}
+
+	.favBtn {
+		font-size: 4vmin;
+		padding: 4vmin 6vmin;
+		border-radius: 2vmin;
+	}
+
+	p::first-letter {
+		font-size: 6vmin;
+	}
+
+	input[type=submit] {
+		font-size: 4vmin;
+		padding: 3.5vmin;
+		border-radius: 3vmin;
+	}
+
+	.navLink, .navLink:hover, .navLink:link,
+	.navLink:visited, .navLink:active {
+		font-size: 4vmin;
+	}
 }
