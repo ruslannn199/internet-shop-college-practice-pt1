@@ -7,6 +7,7 @@ body {
 	background-color: #f9f9f9;
 	color: rgb(19, 104, 132);
 	margin-top: 12vmin;
+	min-height: calc(100vh - 10vmin);
 }
 
 header {
@@ -26,15 +27,17 @@ header {
 	z-index: 100;
 }
 
-header ul {
+#menu {
 	padding: 0;
 	display: flex;
 	justify-content: inherit;
 }
 
 footer {
+	height: 10vmin;
 	background-color: rgb(84, 185, 219);
-	text-align: right;
+	text-align: end;
+	padding: 2vmin;
 }
 
 img {
@@ -170,6 +173,7 @@ input[type="submit"]:active {
 }
 
 table {
+	margin-bottom: 2vmin;
 	border-collapse: collapse;
 }
 
@@ -196,12 +200,16 @@ td {
 }
 
 #logo {
+	padding: 0.5vmin;
 	background-color: #79E5FB;
-	border: none;
 	box-shadow: none;
 	width: 22vmin;
 	height: 10vmin;
 	cursor: pointer;
+}
+
+#logo:hover {
+	border: 0.4vmin solid rgb(19, 104, 132);
 }
 
 #mainContent {
@@ -346,12 +354,17 @@ td {
 }
 
 #basketIcon {
+	border-radius: 2vmin;
 	background-color: #79E5FB;
-	border: none;
 	box-shadow: none;
 	cursor: pointer;
 	width: 10vmin;
 	height: 10vmin;
+}
+
+#basketIcon:hover {
+	box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+	border: 0.4vmin solid rgb(60, 135, 160);
 }
 
 .shopItemLink, .shopItemLink:hover,
@@ -364,6 +377,7 @@ td {
 
 #shopItemPreview {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -406,6 +420,35 @@ td {
 
 .favBtn:active {
 	background-color: rgb(255, 183, 195);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#newProductsList {
+	list-style-image: url(catalogue/images/marker.png) ;
+}
+
+#newProductsList a {
+	color: rgb(118, 118, 0);
+	font-style: italic;
+}
+
+#entertainmentsList {
+	list-style-type: none;
+}
+
+#entertainmentsList a {
+	color: #3F51B5;
+	line-height: 4vmin;
+}
+
+#entertainmentsList li::before {
+	content: "🎉";
 }
 
 @media screen and (max-width: 599px) {
