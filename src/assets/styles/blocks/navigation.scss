@@ -1,0 +1,27 @@
+#menu {
+	padding: 0;
+	display: flex;
+	justify-content: inherit;
+}
+
+.navLink, .navLink:hover, .navLink:link,
+.navLink:visited, .navLink:active {
+	background-color: #79E5FB;
+	border: rgb(36, 80, 95) 2px solid;
+	border-radius: 3vmin;
+	padding: 1vmin;
+	margin: 1vmin;
+	line-height: 10vmin;
+	transition: all 0.15s;
+	box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+.navLink:hover {
+	color: orange;
+	border-color: orange;
+	box-shadow: 0 0 0 0.4rem rgba(158, 158, 158, 0.25)
+}
+
+li {
+	list-style-type: none;
+}

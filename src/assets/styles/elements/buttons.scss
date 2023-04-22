@@ -1,0 +1,55 @@
+.buyBtn {
+	font-size: 2vmin;
+	font-weight: 700;
+	padding: 2vmin 3vmin;
+	line-height: 0;
+	color: white;
+	background-color: blue;
+	border: none;
+	border-radius: 1vmin;
+	cursor: pointer;
+	transition: all 0.3s;
+	margin-top: 1vmin;
+}
+
+.buyBtn::before {
+	content: "В корзину";
+}
+
+.buyBtn:hover, .buyBtn:active {
+	color: blue;
+	outline: blue 1px solid;
+	background-color: white;
+}
+
+.buyBtn:active {
+	background-color: lightskyblue;
+}
+
+.favBtn {
+	font-size: 2vmin;
+	font-weight: 700;
+	padding: 2vmin 3vmin;
+	line-height: 0;
+	color: white;
+	background-color: rgb(254, 98, 124);
+	border: none;
+	border-radius: 1vmin;
+	cursor: pointer;
+	transition: all 0.3s;
+	margin-top: 1vmin;
+}
+
+.favBtn::before {
+	content: "В избранное ";
+}
+
+.favBtn:hover, .favBtn:active {
+	color: rgb(254, 98, 124);
+	outline: 1px solid rgb(254, 98, 124);
+	background-color: white;
+}
+
+.favBtn:active {
+	background-color: rgb(255, 183, 195);
+}

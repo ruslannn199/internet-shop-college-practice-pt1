@@ -1,0 +1,17 @@
+img {
+	margin: 0;
+	padding: 0;
+	width: 20vmin;
+	height: 20vmin;
+	border: 0.4vmin solid rgb(84, 185, 219);
+	box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+img:hover{
+	border-color: transparent;
+}
+
+.productImage {
+	width: 40vmin;
+	height: 40vmin;
+}
