@@ -58,127 +58,127 @@ const babelOptions = preset => {
 const plugins = () => {
 	const base = [
 		new HTMLWebpackPlugin({
-			template: './main/main.html',
-			filename: './main/main.html',
+			template: './main/index.html',
+			filename: './main/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './main/family-ideas/family-ideas.html',
-			filename: './main/family-ideas/family-ideas.html',
+			template: './main/family-ideas/index.html',
+			filename: './main/family-ideas/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './main/friend-nights/friend-nights.html',
-			filename: './main/friend-nights/friend-nights.html',
+			template: './main/friend-nights/index.html',
+			filename: './main/friend-nights/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './main/party-ideas/party-ideas.html',
-			filename: './main/party-ideas/party-ideas.html',
+			template: './main/party-ideas/index.html',
+			filename: './main/party-ideas/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './contacts/contacts.html',
-			filename: './contacts/contacts.html',
+			template: './contacts/index.html',
+			filename: './contacts/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './catalogue/catalogue.html',
-			filename: './catalogue/catalogue.html',
+			template: './catalogue/index.html',
+			filename: './catalogue/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './catalogue/arkham-horror/arkham-horror.html',
-			filename: './catalogue/arkham-horror/arkham-horror.html',
+			template: './catalogue/arkham-horror/index.html',
+			filename: './catalogue/arkham-horror/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './catalogue/black-rose-war/black-rose-war.html',
-			filename: './catalogue/black-rose-war/black-rose-war.html',
+			template: './catalogue/black-rose-war/index.html',
+			filename: './catalogue/black-rose-war/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './catalogue/bunker/bunker.html',
-			filename: './catalogue/bunker/bunker.html',
+			template: './catalogue/bunker/index.html',
+			filename: './catalogue/bunker/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './catalogue/carcasson/carcasson.html',
-			filename: './catalogue/carcasson/carcasson.html',
+			template: './catalogue/carcasson/index.html',
+			filename: './catalogue/carcasson/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './catalogue/eldritch-horror/eldritch-horror.html',
-			filename: './catalogue/eldritch-horror/eldritch-horror.html',
+			template: './catalogue/eldritch-horror/index.html',
+			filename: './catalogue/eldritch-horror/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './catalogue/fallout/fallout.html',
-			filename: './catalogue/fallout/fallout.html',
+			template: './catalogue/fallout/index.html',
+			filename: './catalogue/fallout/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './catalogue/gravity-falls/gravity-falls.html',
-			filename: './catalogue/gravity-falls/gravity-falls.html',
+			template: './catalogue/gravity-falls/index.html',
+			filename: './catalogue/gravity-falls/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './catalogue/imagenarium/imagenarium.html',
-			filename: './catalogue/imagenarium/imagenarium.html',
+			template: './catalogue/imagenarium/index.html',
+			filename: './catalogue/imagenarium/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './catalogue/lotr/lotr.html',
-			filename: './catalogue/lotr/lotr.html',
+			template: './catalogue/lotr/index.html',
+			filename: './catalogue/lotr/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './catalogue/munchkin/munchkin.html',
-			filename: './catalogue/munchkin/munchkin.html',
+			template: './catalogue/munchkin/index.html',
+			filename: './catalogue/munchkin/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './catalogue/slovodel/slovodel.html',
-			filename: './catalogue/slovodel/slovodel.html',
+			template: './catalogue/slovodel/index.html',
+			filename: './catalogue/slovodel/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}
 		}),
 		new HTMLWebpackPlugin({
-			template: './catalogue/ticket-to-ride/ticket-to-ride.html',
-			filename: './catalogue/ticket-to-ride/ticket-to-ride.html',
+			template: './catalogue/ticket-to-ride/index.html',
+			filename: './catalogue/ticket-to-ride/index.html',
 			minify: {
 				collapseWhitespace: isProd
 			}

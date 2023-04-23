@@ -1,3 +1,26 @@
+.btn {
+
+  &_search {
+    background-image: url(../../assets/images/main/loupe.png);
+    height: 7.25vmin;
+    width: 7.25vmin;
+    padding: 1vmin;
+    border: 2px solid $color-primary-l;
+    border-width: 0.5vmin 0.5vmin 0.5vmin 0;
+    background-repeat: no-repeat;
+    background-color: $color-primary-l;
+    background-position: center;
+    background-size: 5vmin;
+    border-radius: 0 2.5vmin 2.5vmin 0;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $color-primary-n;
+      border-color: $color-primary-n;
+    }
+  }
+}
+
 .buyBtn {
 	font-size: 2vmin;
 	font-weight: 700;

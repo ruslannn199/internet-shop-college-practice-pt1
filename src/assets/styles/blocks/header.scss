@@ -2,8 +2,7 @@
 	height: 12vmin;
 	position: fixed;
 	padding: 0 2vmin;
-	background-color: transparent;
-	background-image: url(../../assets/images/main/BackgroundHeader.jpg);
+	background-color: $color-light-l;
 	background-size: auto 12vmin;
 	display: flex;
 	align-items: center;
@@ -13,4 +12,16 @@
 	top: 0;
 	left: 0;
 	z-index: 100;
+
+  &__logo {
+    padding: 0.5vmin;
+    box-shadow: none;
+    width: 22vmin;
+    height: 10vmin;
+    cursor: pointer;
+
+    &:hover {
+      outline: 0.4vmin solid rgb(19, 104, 132);
+    }
+  }
 }

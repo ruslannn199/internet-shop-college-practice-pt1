@@ -119,12 +119,13 @@ $fz: null, $lh: null, $gap: null, $brd-rad: null, $top: null, $left: null) {
 	}
 }
 
-@mixin flex($align: center, $justify: center, $flex-dir: row, $t-align: left){
+@mixin flex($align: center, $justify: center, $flex-dir: row, $flex-wrap: nowrap, $t-align: left){
 	display: flex;
 	align-items: $align;
 	justify-content: $justify;
-	text-align: $t-align;
 	flex-direction: $flex-dir;
+  flex-wrap: wrap;
+	text-align: $t-align;
 }
 
 @mixin transform($transforms) {

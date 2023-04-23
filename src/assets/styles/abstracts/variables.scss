@@ -1,16 +1,12 @@
+$desktop-big: 1920 !global;
 $desktop: 1280 !global;
 $tablet: 768 !global;
 $mobile: 320 !global;
 $mobile-big: 375 !global;
 
-$color-light-0: #FFFFFF;
-$color-light-1: #F6F6F6;
-$color-light-2: #FAFAFA;
-$color-grey-0: #CDCDCD;
-$color-grey-1: #B2B2B2;
-$color-grey-2: #545454;
-$color-dark-1: #4C4C4C;
-$color-dark-2: #444444;
-$color-dark-3: #292929;
-$color-primary: #F1CDB3;
-$color-primary-light: #FDDCC4;
+$color-light-l: #aeeefa;
+$color-light-n: #79E5FB;
+$color-primary-l: rgb(84, 185, 219);
+$color-primary-n: rgb(60, 135, 160);
+
+$color-gray-l: #efefef;

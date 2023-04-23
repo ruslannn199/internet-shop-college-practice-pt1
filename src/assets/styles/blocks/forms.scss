@@ -1,16 +1,15 @@
-form {
+.form {
 	box-sizing: border-box;
   width: 90vmin;
 }
 
-fieldset {
+.fieldset {
 	width: 100%;
 }
 
-input, textarea {
-	text-transform: capitalize;
+.input, .textarea {
 	margin: 1vmin;
-	font-size: 18px;
+	font-size: 2.5vmin;
 	font-family: inherit;
 	color: rgb(46, 46, 46);
 	padding: 1vmin;
@@ -19,30 +18,37 @@ input, textarea {
 	border: 2px solid rgb(84, 185, 219);
 	border-radius: 2.5vmin;
 	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  &_search {
+    border-radius: 2.5vmin 0 0 2.5vmin;
+    border-width: 0.25vmin 0 0.25vmin 0.25vmin;
+    margin: 0;
+    box-shadow: none !important;
+  }
 }
 
 input[type=email]:valid {
 	background-color: rgb(178, 250, 250);
 }
 
-input:focus, textarea:focus {
+.input:focus, .textarea:focus {
 	background-color: #fff;
 	border-color: rgb(12, 79, 101);
 	outline: 0;
 	box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
 }
 
-input::placeholder, textarea::placeholder{
+.input::placeholder, .textarea::placeholder{
 	opacity: 0.4;
 }
 
-textarea {
+.textarea {
 	width: 40vmin;
 	height: 10vmin;
 	resize: none;
 }
 
-input[type="submit"]{
+input[type=submit]{
 	font-size: 3.5vmin;
 	line-height: 0;
 	margin: 1vmin;
@@ -58,14 +64,14 @@ input[type="submit"]{
 	text-align: center;
 }
 
-input[type="submit"]:hover {
+input[type=submit]:hover {
 	background-color: #586de6;
 }
 
-input[type="submit"]:focus {
+input[type=submit]:focus {
 	box-shadow: none;
 }
 
-input[type="submit"]:active {
+input[type=submit]:active {
 	box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
 }
