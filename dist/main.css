@@ -1,0 +1,1247 @@
+/*!**********************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/normalize.css/normalize.css ***!
+  \**********************************************************************************************/
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/*!****************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./assets/styles/fonts.css ***!
+  \****************************************************************************/
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(assets/fonts/caa1ac3d792629cf728e.woff2) format('woff2'),
+      url(assets/fonts/8053f44c8a906502609b.woff) format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/8a5423f83d49c5ba6eea.woff2) format('woff2'),
+      url(assets/fonts/52747ba12744d6335cc9.woff) format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/971d0eac32fdff44ef0a.woff2) format('woff2'),
+      url(assets/fonts/a0eb757c1156a6670626.woff) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(assets/fonts/452fd033610a607a3ad7.woff2) format('woff2'),
+      url(assets/fonts/f0895078436825847f9b.woff) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(assets/fonts/f5080cada3a9c78ab3be.woff2) format('woff2'),
+      url(assets/fonts/7666623176d6d6996529.woff) format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(assets/fonts/39168bf9cfd62aa1287e.woff2) format('woff2'),
+      url(assets/fonts/6d7573c33eed04787e6b.woff) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/5b57f3aae2d78f5ee992.woff2) format('woff2'),
+      url(assets/fonts/ccb9c2051b79f6df27a2.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/f932365bae7a67562d50.woff2) format('woff2'),
+      url(assets/fonts/dce4482653df21326fb3.woff) format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(assets/fonts/94f4e65ab1558d9a7cae.woff2) format('woff2'),
+      url(assets/fonts/f7f55264bcfb468527b8.woff) format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(assets/fonts/fa490f035ca9f68765d1.woff2) format('woff2'),
+      url(assets/fonts/99ff9238c0ca92c33369.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(assets/fonts/96f94d9332d6360c0f88.woff2) format('woff2'),
+      url(assets/fonts/d7ad02536f0edb1f0f16.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(assets/fonts/5d1e3681efbac53e3cf6.woff2) format('woff2'),
+      url(assets/fonts/aa041294b49d2c6c4819.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/9f8a4a5f1e0fe91ec9f7.woff2) format('woff2'),
+      url(assets/fonts/5d04762a4d2605958eb6.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/dd24d10e037690f2bdcd.woff2) format('woff2'),
+      url(assets/fonts/a6b628bdef91e927b77c.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/55ba016002be15c32078.woff2) format('woff2'),
+      url(assets/fonts/7b781bcc5774b4ca3aef.woff) format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(assets/fonts/d8aaa98c08a4f7334d90.woff2) format('woff2'),
+      url(assets/fonts/241be6ac16a562e70c91.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/18770f85e0c23fcc2822.woff2) format('woff2'),
+      url(assets/fonts/066192b3e079bf989a28.woff) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(assets/fonts/91f46c6ad003944f8903.woff2) format('woff2'),
+      url(assets/fonts/2a8d1eeb30c017cab2ba.woff) format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(assets/fonts/3d87e44d5fcfd361515a.woff2) format('woff2'),
+      url(assets/fonts/3ff5b49c3a68e83c32d1.woff) format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/8b2173d8ca7218c9aa98.woff2) format('woff2'),
+      url(assets/fonts/5853a96ec18aa08b3a15.woff) format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url(assets/fonts/2f12ccecb847d575bf8d.woff2) format('woff2'),
+      url(assets/fonts/8df6015400b42bb8cf24.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/6ad14e1bba33d088176b.woff2) format('woff2'),
+      url(assets/fonts/ae7a11bcc58ca2e84f43.woff) format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/9bec05ab7f83d34eb905.woff2) format('woff2'),
+      url(assets/fonts/6f5b7a1c94cb6419bec4.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/852bafc278ec1d018963.woff2) format('woff2'),
+      url(assets/fonts/654968a8c2ee9e7c8bb6.woff) format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/ad19729d6a0511212493.woff2) format('woff2'),
+      url(assets/fonts/387f9003f984ef1cec60.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/0996aa024c3d73abd3bb.woff2) format('woff2'),
+      url(assets/fonts/ed0c900126e6bfcf463c.woff) format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/3c3f3613b59d581739fc.woff2) format('woff2'),
+      url(assets/fonts/71da8e4f0d76b718897c.woff) format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/f8fc4fd3d2ad4a00a9a2.woff2) format('woff2'),
+      url(assets/fonts/cbc254035fd2db12340f.woff) format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/de07f277b373e75a16b2.woff2) format('woff2'),
+      url(assets/fonts/38bd2f9c930011bc0e4f.woff) format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(assets/fonts/563f976db73ca07d8fc3.woff2) format('woff2'),
+      url(assets/fonts/7e588a26bdac2428f240.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(assets/fonts/b21da07c934a28b2fef3.woff2) format('woff2'),
+      url(assets/fonts/9fa4a8113c081e9b3138.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(assets/fonts/cd5a79c185e92ebe6b94.woff2) format('woff2'),
+      url(assets/fonts/a3513eaf0ad708fff3ca.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(assets/fonts/e26e5c4fde2ec3e5bf71.woff2) format('woff2'),
+      url(assets/fonts/65f2f623b88fefa3fe3e.woff) format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url(assets/fonts/282c0e7aaa85f52506a6.woff2) format('woff2'),
+      url(assets/fonts/606101c5b0773eaa0a2f.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(assets/fonts/89909ce653d7b6c0f12b.woff2) format('woff2'),
+      url(assets/fonts/59bbaf592c62cb87ecc6.woff) format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(assets/fonts/4ca616225439b353c722.woff2) format('woff2'),
+      url(assets/fonts/c981701f695c76440cb3.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url(assets/fonts/926b2ccb3309387a9c03.woff2) format('woff2'),
+      url(assets/fonts/a3e66a3d0d26156cf2ca.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(assets/fonts/f476452e71e918ed9d9a.woff2) format('woff2'),
+      url(assets/fonts/0f8cae2dc092ab9f2ba9.woff) format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(assets/fonts/0a203fd6e3bba185629d.woff2) format('woff2'),
+      url(assets/fonts/24d270c04a21572bbba5.woff) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(assets/fonts/9d43b86421e004e704b9.woff2) format('woff2'),
+      url(assets/fonts/0944be1093c62cedb919.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url(assets/fonts/d75739d891cd84725538.woff2) format('woff2'),
+      url(assets/fonts/c8b1f9c916495ad9007f.woff) format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url(assets/fonts/119247a41f181bd89a4c.woff2) format('woff2'),
+      url(assets/fonts/cbd4685680b4b6f973f7.woff) format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(assets/fonts/8374b555761a39b1c5e7.woff2) format('woff2'),
+      url(assets/fonts/7647ccb144fe42812063.woff) format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url(assets/fonts/d6df581cc22ef9e122b3.woff2) format('woff2'),
+      url(assets/fonts/a5a7b50ed4c3d6c8447a.woff) format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url(assets/fonts/36206d9136392929e22b.woff2) format('woff2'),
+      url(assets/fonts/6c24f4a169ee7f2beba2.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(assets/fonts/86d943cd3dc2a1ab6de7.woff2) format('woff2'),
+      url(assets/fonts/28e505168e7ed04c6bae.woff) format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(assets/fonts/8e9578cce5d551036e41.woff2) format('woff2'),
+      url(assets/fonts/43cf5af8ceefc30114f7.woff) format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url(assets/fonts/4d760c3f766be638faa4.woff2) format('woff2'),
+      url(assets/fonts/7747d036a5d751233216.woff) format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url(assets/fonts/b9845c4bdb7e65c17a90.woff2) format('woff2'),
+      url(assets/fonts/41174eb1ffc0da0f8196.woff) format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(assets/fonts/57b8a81c7519e4d6b555.woff2) format('woff2'),
+      url(assets/fonts/e624b10d53c919bd7496.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/*!**********************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./assets/styles/styles.scss ***!
+  \**********************************************************************************************************************/
+@charset "UTF-8";
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #136884;
+  margin-top: 12vmin;
+  min-height: calc(100vh - 10vmin); }
+
+h1 {
+  padding: 5vmin; }
+
+em {
+  font-size: 2.5vmin; }
+
+footer {
+  height: 10vmin;
+  background-color: #54b9db;
+  text-align: end;
+  padding: 2vmin; }
+
+form {
+  box-sizing: border-box;
+  width: 90vmin; }
+
+fieldset {
+  width: 100%; }
+
+input, textarea {
+  text-transform: capitalize;
+  margin: 1vmin;
+  font-size: 18px;
+  font-family: inherit;
+  color: #2e2e2e;
+  padding: 1vmin;
+  width: 40vmin;
+  height: 5vmin;
+  border: 2px solid #54b9db;
+  border-radius: 2.5vmin;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+
+input[type=email]:valid {
+  background-color: #b2fafa; }
+
+input:focus, textarea:focus {
+  background-color: #fff;
+  border-color: #0c4f65;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25); }
+
+input::placeholder, textarea::placeholder {
+  opacity: 0.4; }
+
+textarea {
+  width: 40vmin;
+  height: 10vmin;
+  resize: none; }
+
+input[type="submit"] {
+  font-size: 3.5vmin;
+  line-height: 0;
+  margin: 1vmin;
+  padding: 1vmin;
+  border: none;
+  background-color: #3F51B5;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 2.5vmin;
+  width: 42.5vmin;
+  cursor: pointer;
+  transition: all 0.15s box-shadow 0.4s;
+  text-align: center; }
+
+input[type="submit"]:hover {
+  background-color: #586de6; }
+
+input[type="submit"]:focus {
+  box-shadow: none; }
+
+input[type="submit"]:active {
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25); }
+
+.header {
+  height: 12vmin;
+  position: fixed;
+  padding: 0 2vmin;
+  background-color: transparent;
+  background-image: url(assets/images/main/BackgroundHeader.jpg);
+  background-size: auto 12vmin;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: calc(100% - 4vmin);
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: 100; }
+
+#menu {
+  padding: 0;
+  display: flex;
+  justify-content: inherit; }
+
+.navLink, .navLink:hover, .navLink:link,
+.navLink:visited, .navLink:active {
+  background-color: #79E5FB;
+  border: #24505f 2px solid;
+  border-radius: 3vmin;
+  padding: 1vmin;
+  margin: 1vmin;
+  line-height: 10vmin;
+  transition: all 0.15s;
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25); }
+
+.navLink:hover {
+  color: orange;
+  border-color: orange;
+  box-shadow: 0 0 0 0.4rem rgba(158, 158, 158, 0.25); }
+
+li {
+  list-style-type: none; }
+
+table {
+  margin-bottom: 2vmin;
+  border-collapse: collapse; }
+
+th {
+  padding: 1.5vmin;
+  border: 1px solid black;
+  border-radius: 1vmin; }
+
+td {
+  padding: 0.5vmin;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 1vmin; }
+
+img {
+  margin: 0;
+  padding: 0;
+  width: 20vmin;
+  height: 20vmin;
+  border: 0.4vmin solid #54b9db;
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25); }
+
+img:hover {
+  border-color: transparent; }
+
+.productImage {
+  width: 40vmin;
+  height: 40vmin; }
+
+.buyBtn {
+  font-size: 2vmin;
+  font-weight: 700;
+  padding: 2vmin 3vmin;
+  line-height: 0;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 1vmin;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 1vmin; }
+
+.buyBtn::before {
+  content: "В корзину"; }
+
+.buyBtn:hover, .buyBtn:active {
+  color: blue;
+  outline: blue 1px solid;
+  background-color: white; }
+
+.buyBtn:active {
+  background-color: lightskyblue; }
+
+.favBtn {
+  font-size: 2vmin;
+  font-weight: 700;
+  padding: 2vmin 3vmin;
+  line-height: 0;
+  color: white;
+  background-color: #fe627c;
+  border: none;
+  border-radius: 1vmin;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 1vmin; }
+
+.favBtn::before {
+  content: "В избранное "; }
+
+.favBtn:hover, .favBtn:active {
+  color: #fe627c;
+  outline: 1px solid #fe627c;
+  background-color: white; }
+
+.favBtn:active {
+  background-color: #ffb7c3; }
+
+p::first-letter {
+  text-transform: capitalize;
+  font-size: 3vmin;
+  font-family: Arial, Helvetica, sans-serif; }
+
+a, a:hover, a:link, a:visited, a:active {
+  border: none;
+  text-decoration: none;
+  font-size: 2.5vmin;
+  color: #24505f; }
+
+#contactsList {
+  font-style: italic; }
+
+#map {
+  width: 100%;
+  height: 374px; }
+
+#logo {
+  padding: 0.5vmin;
+  background-color: #79E5FB;
+  box-shadow: none;
+  width: 22vmin;
+  height: 10vmin;
+  cursor: pointer; }
+
+#logo:hover {
+  border: 0.4vmin solid #136884; }
+
+#mainContent {
+  color: #0c4f65;
+  font-size: 14px;
+  font-style: italic; }
+
+#mainContent a, #mainContent h2 {
+  font-style: normal;
+  color: #136884;
+  font-size: 3vmin;
+  font-weight: 400;
+  background-color: #d1f0ff;
+  line-height: 5vmin; }
+
+#mainContent h2 + p {
+  color: #0c4e64;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left; }
+
+#mainContent li {
+  font-style: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #0c4f65;
+  list-style-image: url(assets/images/main/marker.png); }
+
+.shopItem {
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 3vmin;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  transition: outline 0.15s; }
+
+.shopItem:hover {
+  outline: 1vmin solid rgba(158, 158, 158, 0.25); }
+
+@media screen and (max-width: 599px) {
+  #catalogueList {
+    display: grid;
+    grid-template-rows: repeat(90vmin);
+    grid-template-columns: 90vmin;
+    padding: 1vmin;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+  .itemImage {
+    width: 45vmin;
+    height: 45vmin; } }
+
+@media screen and (min-width: 600px) {
+  #catalogueList {
+    display: grid;
+    grid-template-rows: repeat(60vmin);
+    grid-template-columns: 30vmin 30vmin;
+    padding: 1vmin;
+    flex-wrap: wrap;
+    justify-content: space-evenly; } }
+
+@media screen and (min-width: 900px) {
+  #catalogueList {
+    display: grid;
+    grid-template-rows: repeat(60vmin);
+    grid-template-columns: 38vmin 38vmin 38vmin;
+    padding: 1vmin;
+    flex-wrap: wrap;
+    justify-content: space-evenly; } }
+
+@media screen and (min-width: 1100px) {
+  #catalogueList {
+    display: grid;
+    grid-template-rows: repeat(60vmin);
+    grid-template-columns: 38vmin 38vmin 38vmin 38vmin;
+    padding: 1vmin;
+    flex-wrap: wrap;
+    justify-content: space-evenly; } }
+
+@media screen and (min-width: 1400px) {
+  #catalogueList {
+    display: grid;
+    grid-template-rows: repeat(60vmin);
+    grid-template-columns: 38vmin 38vmin 38vmin 38vmin 38vmin;
+    padding: 1vmin;
+    flex-wrap: wrap;
+    justify-content: space-evenly; } }
+
+.productPrice {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vmin;
+  color: black; }
+
+#basketIcon {
+  border-radius: 2vmin;
+  background-color: #79E5FB;
+  box-shadow: none;
+  cursor: pointer;
+  width: 10vmin;
+  height: 10vmin; }
+
+#basketIcon:hover {
+  box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+  border: 0.4vmin solid #3c87a0; }
+
+.shopItemLink, .shopItemLink:hover,
+.shopItemLink:active, .shopItemLink:link,
+.shopItemLink:visited {
+  font-size: 2vmin;
+  color: #2C89CB;
+  font-weight: 700; }
+
+#shopItemPreview {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#shopItemDesc {
+  display: flex;
+  flex-direction: column;
+  margin: 5vmin;
+  padding: 5vmin auto; }
+
+#addToBasketContainer {
+  margin-left: 10vmin;
+  display: flex;
+  flex-direction: column; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+#newProductsList {
+  list-style-image: url(assets/images/main/marker.png); }
+
+#newProductsList a {
+  color: #767600;
+  font-style: italic; }
+
+#entertainmentsList {
+  list-style-type: none; }
+
+#entertainmentsList a {
+  color: #3F51B5;
+  line-height: 4vmin; }
+
+#entertainmentsList li::before {
+  content: "🎉"; }
+
+.h2-heading {
+  padding: 2.5vmin 5vmin; }
+
+#ideas-list {
+  padding: 0 8vmin;
+  line-height: 23px; }
+
+#ideas-list li {
+  list-style-type: decimal; }
+
+.idea-ctn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 10vmin auto; }
+
+.idea-desc {
+  padding: 0 6vmin;
+  line-height: 23px; }
+
+.idea-img {
+  width: 80vmin;
+  height: 50vmin;
+  cursor: pointer; }
+
+@media screen and (max-width: 599px) {
+  .shopItemLink, .shopItemLink:hover,
+  .shopItemLink:active, .shopItemLink:link,
+  .shopItemLink:visited {
+    font-size: 6vmin; }
+  .productPrice {
+    font-size: 5vmin; }
+  .buyBtn {
+    font-size: 4vmin;
+    padding: 4vmin 6vmin;
+    border-radius: 2vmin; }
+  .favBtn {
+    font-size: 4vmin;
+    padding: 4vmin 6vmin;
+    border-radius: 2vmin; }
+  p::first-letter {
+    font-size: 6vmin; }
+  input[type=submit] {
+    font-size: 4vmin;
+    padding: 3.5vmin;
+    border-radius: 3vmin; }
+  .navLink, .navLink:hover, .navLink:link,
+  .navLink:visited, .navLink:active {
+    font-size: 4vmin; } }
+
+
+/*# sourceMappingURL=main.css.map*/

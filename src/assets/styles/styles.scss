@@ -1,3 +1,5 @@
+@import "./fonts.css";
+
 @import "./abstracts/variables.scss";
 @import "./abstracts/mixins.scss";
 
@@ -12,8 +14,6 @@
 
 @import "./elements/images.scss";
 @import "./elements/buttons.scss";
-
-@import "./fonts.css";
 
 p::first-letter {
 	text-transform: capitalize;
@@ -77,7 +77,7 @@ a, a:hover, a:link, a:visited, a:active {
 	font-style: normal;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: rgb(12, 79, 101);
-	list-style-image: url(catalogue/images/marker.png);
+	list-style-image: url(../../assets/images/main/marker.png);
 }
 
 .shopItem {
@@ -212,7 +212,7 @@ a, a:hover, a:link, a:visited, a:active {
 }
 
 #newProductsList {
-	list-style-image: url(catalogue/images/marker.png) ;
+	list-style-image: url(../../assets/images/main/marker.png) ;
 }
 
 #newProductsList a {
