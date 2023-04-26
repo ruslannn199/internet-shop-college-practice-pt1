@@ -20,10 +20,15 @@
 	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
   &_search {
+    width: 30vmin;
     border-radius: 2.5vmin 0 0 2.5vmin;
     border-width: 0.25vmin 0 0.25vmin 0.25vmin;
     margin: 0;
     box-shadow: none !important;
+  }
+
+  @include media($tablet) {
+    width: 15vmin;
   }
 }
 

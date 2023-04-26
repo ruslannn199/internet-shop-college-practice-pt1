@@ -1,7 +1,3 @@
-.search-bar {
-  @include flex();
-}
-
 .menu {
 	padding: 0;
 	display: flex;
@@ -27,6 +23,11 @@
       color: orange;
       border-color: orange;
       box-shadow: 0 0 0 0.4rem rgba(158, 158, 158, 0.25)
+    }
+
+    @include media($tablet) {
+      font-size: 2vmin;
+      line-height: 2vmin;
     }
   }
 }

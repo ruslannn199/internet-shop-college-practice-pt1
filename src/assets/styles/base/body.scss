@@ -2,7 +2,7 @@ html {
 	scroll-behavior: smooth;
 }
 
-body {
+.body {
 	font-family: "Montserrat", "Roboto", sans-serif;
 	margin: 0;
 	padding: 0;
@@ -10,4 +10,17 @@ body {
 	color: rgb(19, 104, 132);
 	margin-top: 12vmin;
 	min-height: calc(100vh - 10vmin);
+}
+
+p::first-letter {
+	text-transform: capitalize;
+	font-size: 3vmin;
+	font-family: Helvetica, "Roboto", sans-serif;
+}
+
+a, a:hover, a:link, a:visited, a:active {
+	border: none;
+	text-decoration: none;
+	font-size: 2.5vmin;
+	color: rgb(36, 80, 95);
 }

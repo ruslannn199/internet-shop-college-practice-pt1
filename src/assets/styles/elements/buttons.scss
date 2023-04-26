@@ -18,6 +18,11 @@
       background-color: $color-primary-n;
       border-color: $color-primary-n;
     }
+
+    @include media($tablet) {
+      width: 6.75vmin;
+      height: 6.75vmin;
+    }
   }
 }
 

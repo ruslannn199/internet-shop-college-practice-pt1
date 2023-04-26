@@ -3,12 +3,10 @@
 	position: fixed;
 	padding: 0 2vmin;
 	background-color: $color-light-l;
-	background-size: auto 12vmin;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
 	width: calc(100% - 4vmin);
-	overflow: hidden;
 	top: 0;
 	left: 0;
 	z-index: 100;
@@ -22,6 +20,17 @@
 
     &:hover {
       outline: 0.4vmin solid rgb(19, 104, 132);
+    }
+  }
+
+  &__search-bar {
+    @include flex();
+  }
+
+  @include media($tablet) {
+    &__logo {
+      width: 12vmin;
+      height: 6vmin;
     }
   }
 }

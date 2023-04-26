@@ -1,6 +1,18 @@
-footer {
-	height: 10vmin;
-	background-color: rgb(84, 185, 219);
-	text-align: end;
+.footer {
+	background: linear-gradient($color-primary-l, $color-primary-n);
 	padding: 2vmin;
+  user-select: none;
+  @include flex(center, space-between);
+
+  &-list {
+    list-style-type: none;
+  }
+
+  &__link {
+    font-size: 0.5vmin;
+  }
+
+  &__rights {
+    color: $color-primary-d;
+  }
 }

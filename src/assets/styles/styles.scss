@@ -15,19 +15,6 @@
 @import "./elements/images.scss";
 @import "./elements/buttons.scss";
 
-p::first-letter {
-	text-transform: capitalize;
-	font-size: 3vmin;
-	font-family: Helvetica, "Roboto", sans-serif;
-}
-
-a, a:hover, a:link, a:visited, a:active {
-	border: none;
-	text-decoration: none;
-	font-size: 2.5vmin;
-	color: rgb(36, 80, 95);
-}
-
 .contactsList {
 	font-style: italic;
 }
@@ -38,7 +25,7 @@ a, a:hover, a:link, a:visited, a:active {
 }
 
 .mainContent {
-	color: rgb(12, 79, 101);
+	color: $color-primary-d;
 	font-size: 14px;
 	font-style: italic;
 }
@@ -63,7 +50,7 @@ a, a:hover, a:link, a:visited, a:active {
 .mainContent li {
 	font-style: normal;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: rgb(12, 79, 101);
+	color: $color-primary-d;
 	list-style-image: url(../../assets/images/main/marker.png);
 }
 
