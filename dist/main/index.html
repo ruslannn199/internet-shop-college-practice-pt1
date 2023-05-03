@@ -7,10 +7,10 @@
 	<link type="image/x-icon" href="../assets/images/main/logo.ico" rel="shortcut icon">
 	<title>Магазин НаСтол главная</title>
 <script defer="defer" src="../index.js"></script><link href="../main.css" rel="stylesheet"></head>
-<body>
+<body class="body">
   <header class="header">
     <img class="header__logo" src="../assets/images/main/logo.png" alt="лого">
-    <nav class="search-bar">
+    <nav class="header__search-bar">
       <input type="text" placeholder="Поиск" class="input input_search">
       <button class="btn btn_search"></button>
     </nav>
@@ -24,30 +24,42 @@
       <span class="basket__name">Корзина</span>
     </a>
   </header>
-	<div class="container">
-		<h1>
+	<main class="content">
+		<h1 class="content__heading heading">
 			Приветствуем на нашей платформе НаСтол, мы предлагаем
 			лучшие настольные игры по приветливым ценам!
 		</h1>
-		<h2>Новинки</h2>
-		<ul class="newProductsList">
-			<li><a href="../catalogue/ticket-to-ride/">Ticket to Ride: Европа</a></li>
-			<li><a href="../catalogue/bunker/">Бункер</a></li>
-			<li><a href="../catalogue/fallout/">Fallout</a></li>
-			<li><a href="../catalogue/eldritch-horror/">Древний Ужас</a></li>
-			<li><a href="../catalogue/black-rose-war/">Войны Чёрной Розы</a></li>
+		<h2 class="subheading">Новинки</h2>
+		<ul class="content__new-products-list">
+			<li><a class="content__link link link_yellow" href="../catalogue/ticket-to-ride/">Ticket to Ride: Европа</a></li>
+			<li><a class="content__link link link_yellow" href="../catalogue/bunker/">Бункер</a></li>
+			<li><a class="content__link link link_yellow" href="../catalogue/fallout/">Fallout</a></li>
+			<li><a class="content__link link link_yellow" href="../catalogue/eldritch-horror/">Древний Ужас</a></li>
+			<li><a class="content__link link link_yellow" href="../catalogue/black-rose-war/">Войны Чёрной Розы</a></li>
 		</ul>
 		<h2>Развлечения для всей семьи</h2>
-		<ul class="entertainmentsList">
-			<li><a href="family-ideas/">Идеи для вечеров в кругу семьи</a></li>
-			<li><a href="party-ideas/">Идеи для праздников</a></li>
-			<li><a href="friend-nights/">Идеи для проведения вечеров с близкими</a></li>
+		<ul class="content__entertainment-list">
+			<li class="content-entertainment-list__item"><a class="content__link link link_purple" href="family-ideas/">Идеи для вечеров в кругу семьи</a></li>
+			<li class="content-entertainment-list__item"><a class="content__link link link_purple" href="party-ideas/">Идеи для праздников</a></li>
+			<li class="content-entertainment-list__item"><a class="content__link link link_purple" href="friend-nights/">Идеи для проведения вечеров с близкими</a></li>
 		</ul>
-	</div>
+	</main>
+  <footer class="footer">
+    <ul class="footer-list footer__list">
+      <li class="footer-list__item"><a href="../contacts/" class="footer__link">Страница контактов</a></li>
+      <li class="footer-list__item"><a href="../main/" class="footer__link">Главная</a></li>
+      <li class="footer-list__item"><a href="#!" class="footer__link">Вакансии</a></li>
+      <li class="footer-list__item"><a href="#!" class="footer__link">О нас</a></li>
+    </ul>
+    <ul class="footer-list footer__list">
+      <li class="footer-list__item"><a href="tel:+79627536191" class="footer__link">+7-(962)-753-61-91</a></li>
+      <li class="footer-list__item"><a href="mailto:ruslannn199@gmail.com" class="footer__link">ruslannn199@gmail.com</a></li>
+      <li class="footer-list__item"><a href="https://goo.gl/maps/w9oLaDgNzMv2DZRC8" target="_blank" class="footer__link">Мы на карте</a></li>
+      <li class="footer-list__item"><a href="../contacts/index.html#input" class="footer__link">Обратная связь</a></li>
+    </ul>
+    <div class="footer__rights">
+      © Все права защищены. 2023
+    </div>
+  </footer>
 </body>
-<footer>
-	<em>
-		© Все права защищены. 2023
-	</em>
-</footer>
 </html>
